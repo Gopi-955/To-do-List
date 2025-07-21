@@ -1,0 +1,56 @@
+.app{
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 500px;
+    margin:60px auto;
+    padding: 30px 25px;
+    background: linear-gradient(to top,rgb(156, 68, 239), rgb(214, 79, 79));
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 
+    6px 6px 12px rgba(194, 18, 18, 0.5);
+}
+h1{
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+.input-container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+input{
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+button{
+    padding: 12px 20px;
+    background-color: rgb(95, 117, 241);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(190, 173, 173, 0.8);
+    color: black;
+}
+ul.todo-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.todo-list li{
+    background-color: aliceblue;
+    margin-bottom: 12px;
+    padding: 12px 24px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    background-color: rgb(16, 202, 202);
+}   
